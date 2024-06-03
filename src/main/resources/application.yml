@@ -17,3 +17,10 @@ spring:
     expiration: 300000
 server:
   port: 8081
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info
+      base-path: /management
