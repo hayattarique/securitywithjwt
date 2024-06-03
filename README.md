@@ -8,6 +8,7 @@ This is a Spring Boot application demonstrating JWT (JSON Web Token) authenticat
 - Maven 3.6.0 or later
 - An IDE (IntelliJ IDEA, Eclipse, etc.)
 - Postman (or any other API testing tool)
+- 
 
 ## Features
 
