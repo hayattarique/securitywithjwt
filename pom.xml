@@ -10,13 +10,14 @@
     </parent>
     <groupId>org.boot</groupId>
     <artifactId>restjwt</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0</version>
     <name>restjwt</name>
     <description>restjwt</description>
     <properties>
         <java.version>17</java.version>
         <jwt.version>0.12.5</jwt.version>
     </properties>
+    <packaging>jar</packaging>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt-jackson -->
         <dependency>
