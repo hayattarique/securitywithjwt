@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/spring_jwt
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+  jwt:
+    secret-key: 5e9335de14d47b9c397e686cd7f4f2e26cc1d4e41d293b970e9c890e2db0dc7c
+    expiration: 300000
+server:
+  port: 8081
