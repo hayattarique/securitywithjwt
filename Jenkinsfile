@@ -3,7 +3,7 @@ stages{
 stage('Cloning Repository'){
 steps{
 echo 'cloning repository'
-git branch: 'main' url: 'https://github.com/hayattarique/securitywithjwt.git'
+git branch: 'main', url: 'https://github.com/hayattarique/securitywithjwt.git'
     }
   }
   
